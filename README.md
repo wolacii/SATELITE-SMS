@@ -1,0 +1,6 @@
+# SATELITE-SMS
+Automação de um bot para envio de mensagem da Temperatura climática de determinado local que o usuário desejar (Projeto ainda não finalizado)
+
+O site para puxar as informações do satelie é o "Open Weather Map", no próprio site eles disponibilizam uma API no qual eu fiz o uso para programar esse bot de automação.
+A maneira que usei para enviar as mensagens em SMS foi pela API do Twilio, onde eu criei uma conta e através dela a automação tem acesso e vai fazer o envio da mensagem através daquela conta criada.
+Ps: A mensagem de SMS só pode ser enviada em números que tenham conta criada no Twilio, caso tente ser enviado para um número que não tenha conta o próprio código vai acusar um erro falando que o número é inexistente. (É o básico de banco de dados né pfvr, o site só vai enviar para os números que eles tem no banco de dados deles, fora isso encaixa até mesmo em crime enviar algo sem uma permissão prévia. NÃO USAR ESTA AUTOMAÇÃO PARA ENVIAR MENSAGENS PARA MAIS DE 200 NÚMEROS DIFERENTES, CASO ISTO SEJA FEITO O TWILIO VAI BANIR SUA CONTA JUNNTAMENTE COM SEU NÚMERO PERMANENTEMENTE.)
